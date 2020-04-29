@@ -177,7 +177,7 @@ print(our_df)
 
 new_row= pd.DataFrame(randn(1,5), columns=our_df.columns, index=['Gene_6'])
 our_df = our_df.append(new_row)
-our_df
+print(our_df)
 ```
 
 ### Create a new column based on the values in another column
